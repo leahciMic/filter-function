@@ -1,0 +1,60 @@
+{
+  "name": "filter-function",
+  "version": "1.0.0",
+  "description": "Create a filter function that can recursively match against objects, and use regex",
+  "homepage": "https://github.com/leahciMic/filter-function.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leahciMic/filter-function.git"
+  },
+  "jsnext:main": "lib/createMatchFn.js",
+  "module": "lib/createMatchFn.js",
+  "engines": {
+    "node" : ">=8.0.0"
+  },
+  "license": "ISC",
+  "author": {
+    "name": "Michael Leaney",
+    "email": "leahcimic@gmail.com",
+    "url": "https://github.com/leahciMic"
+  },
+  "main": "dist/createMatchFn.js",
+  "scripts": {
+    "test": "jest",
+    "prepublish": "npm run build",
+    "build": "babel lib --out-dir dist"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-preset-node8-es6": "^12.0.0",
+    "eslint": "^4.0.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "jest": "^20.0.4"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/dist/",
+      "/node_modules/"
+    ],
+    "collectCoverage": true,
+    "coverageReporters": [
+      "json",
+      "lcov",
+      "text",
+      "text-summary",
+      "html"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    }
+  }
+}
