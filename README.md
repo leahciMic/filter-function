@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/leahciMic/filter-function.svg?branch=master)](https://travis-ci.org/leahciMic/filter-function)
 
-[![Coverage Status](https://coveralls.io/repos/github/leahciMic/filter-function/badge.svg?branch=master)](https://coveralls.io/github/leahciMic/filter-function?branch=master)
+[![codecov](https://codecov.io/gh/leahciMic/filter-function/branch/master/graph/badge.svg)](https://codecov.io/gh/leahciMic/filter-function)
 
 > Create a filter function that can recursively match against objects, and use regex
 
