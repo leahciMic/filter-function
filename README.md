@@ -6,13 +6,13 @@
 
 ## Install
 
-```
+```sh
 yarn add filter-function
 ```
 
 ## Usage
 
-```
+```js
 import filterFunction from 'filter-function';
 
 const filterFooBar = filterFunction({ foo: 'bar' });
@@ -23,6 +23,27 @@ const items = [
 ];
 
 console.log(items.filter(filterFooBar)); // [{ foo: 'bar' }]
+```
+
+## API details
+
+filter-function only checks for the properties listed in the checking object,
+extraneous properties on the target object are ignored.
+
+### Regular expressions
+
+filter-function also supports regular expressions, use as such:
+
+```js
+const filterFooBar = filterFunction({ foo: /bar/ });
+```
+
+### Nested objects
+
+filter-function also supports nested objects, use as such:
+
+```js
+const filterFunction = filterFunction({ foo: { bar: 'baz' } });
 ```
 
 ## Contribute
