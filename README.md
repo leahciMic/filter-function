@@ -14,6 +14,7 @@ yarn add filter-function
 
 ```js
 import filterFunction from 'filter-function';
+// or const filterFunction = require('filter-function').default;
 
 const filterFooBar = filterFunction({ foo: 'bar' });
 const items = [

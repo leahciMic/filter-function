@@ -1,6 +1,6 @@
 {
   "name": "filter-function",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create a filter function that can recursively match against objects, and use regex",
   "homepage": "https://github.com/leahciMic/filter-function.git",
   "repository": {
