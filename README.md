@@ -43,7 +43,7 @@ const filterFooBar = filterFunction({ foo: /bar/ });
 filter-function also supports nested objects, use as such:
 
 ```js
-const filterFunction = filterFunction({ foo: { bar: 'baz' } });
+const filterFooBar = filterFunction({ foo: { bar: 'baz' } });
 ```
 
 ## Contribute
