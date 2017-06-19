@@ -1,8 +1,6 @@
 # filter-function
 
-[![Build Status](https://travis-ci.org/leahciMic/filter-function.svg?branch=master)](https://travis-ci.org/leahciMic/filter-function)
-
-[![codecov](https://codecov.io/gh/leahciMic/filter-function/branch/master/graph/badge.svg)](https://codecov.io/gh/leahciMic/filter-function)
+[![Build Status](https://travis-ci.org/leahciMic/filter-function.svg?branch=master)](https://travis-ci.org/leahciMic/filter-function) [![codecov](https://codecov.io/gh/leahciMic/filter-function/branch/master/graph/badge.svg)](https://codecov.io/gh/leahciMic/filter-function)
 
 > Create a filter function that can recursively match against objects, and use regex
 
